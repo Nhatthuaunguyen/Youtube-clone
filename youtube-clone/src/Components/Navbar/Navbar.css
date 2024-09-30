@@ -1,0 +1,70 @@
+/*add css property for navigation bar*/
+
+/*css for nav tag*/
+nav{
+    padding: 5px 2%;
+    justify-content: 0 0 10px rgba(0,0,0,0);
+    background: #fff;
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+
+/*css for menu icon*/
+.nav-left .menu_icon {
+    width: 25px;
+    margin-right: 25px;
+}
+
+/*css for logo icon*/
+.nav-left .logo {
+    width:160px;
+}
+
+/*css for search box*/
+.nav-middle .search-box {
+    border: 1px solid #21026a;
+    margin-right: 15px;
+    margin-left: 130px;
+    padding: 10px 12px;
+    border-radius: 25px;
+}
+
+/*css cho phần input của search box*/
+.nav-middle .search-box input {
+    width: 480px;
+    border:0;
+    background: transparent;
+    outline:0;
+}
+
+/*css cho search icon */
+.nav-middle .search-box img {
+    width: 15px;
+}
+
+.nav-middle .voice_icon{
+    width: 20px;
+    margin-right: 120px;
+}
+
+/*css cho nút create*/
+.nav-right .create_icon{
+    width:35px;
+    margin-left:18px;
+    margin-right:25px;
+}
+
+/*css cho nút notification*/
+.nav-right .notificaion_icon{
+    width:20px;
+    margin-right:22px;
+}
+
+/*css cho hình profile*/
+.nav-right .profile_icon {
+    width:40px;
+    margin-left:22px;
+    border-radius:100%;
+}
+
