@@ -1,0 +1,23 @@
+/*CSS for complete project*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+img {
+    cursor: pointer;
+}
+
+/* để tạo được thành 1 hàng ngang thì phải dùng display flex và aligin-item: center*/
+.flex-div{
+    display: flex;
+    align-items: center;
+}
